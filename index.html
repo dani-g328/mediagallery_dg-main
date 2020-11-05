@@ -1,1 +1,60 @@
-
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta https-equiv="X-Ua-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width", initial-scale=1>
+  <title>dg_mediagallery</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"><!-- font awesome CDN -->
+    <link rel="stylesheet" href="css/sanitize.css"><!-- cross-browser compatibility -->
+    <link rel="stylesheet" href="css/style.css"><!-- our stylesheet is loaded LAST, to override others -->
+  </head>
+<body>
+  <nav id="main-nav" class="topnav">
+    <a class="nav-item logo">
+      <span class="label"><i class="fas fa-home></i>home</span>
+      </a>
+      <a class="nav-item">
+        <span class="label"><i class="fas fa-file-upload"></i>Upload</span>
+      </a>
+      <a class="nav-item">
+        <span class="label"><i class="fas fa-info-circle"></i>Info</span>
+      </a>
+      <a class="nav-item">
+        <span class="label"><i class="fas fa-quote-left"></i>Credits</span>
+      </a>
+      <a class="nav-item more">
+        <span class="label"><i class="fas fa-ellipsis-h"></i>More</span>
+      </a>
+      <a href="javascript:void(0);" class="nav-item trigram" onclick="navToggle()">&#9776;</a>
+    </nav>
+    <section class="slideshow">
+      <div class="slideshow-wrapper">
+        <div class="slide fade">
+          <div class="numberof">1 of 4</div>
+          <img src="img/1.jpg"/>
+          <div class="captiontext">Butch Love</div><!-- end .slide.fade -->
+    <div class="slide fade">
+        <div class="numberof">2 of 4</div>
+        <img src="img/2.jpg"/>
+        <div class="captiontext">Smiling women-so beautiful!</div><!-- end .slide.fade -->
+    <div class="slide fade">
+          <div class="numberof">3 of 4</div>
+          <img src="img/3.jpg"/>
+          <div class="captiontext">Butch women in every day life!</div><!-- end .slide.fade -->
+      <div class="slide fade">
+          <div class="numberof">4 of 4</div>
+          <img src="img/4.jpg"/>
+          <div class="captiontext">Women staring at reflections together.</div><!-- end .slide.fade -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;<!--unicode for less-than-sign--></a>
+        <a class="next" onclick="plusSlides(1)">&#10095;<!--unicode for greater-than-sign--></a>
+      </div><!--end slideshow-wrapper-->
+      <br />
+      <div class="text-center">
+       <span class="indicator" onclick="currentSlide(1)"><img src="img/1.jpg"/></span>
+       <span class="indicator" onclick="currentSlide(2)"><img src="img/2.jpg"/></span>
+       <span class="indicator" onclick="currentSlide(3)"><img src="img/3.jpg"/></span>
+       <span class="indicator" onclick="currentSlide(4)"><img src="img/4.jpg"/></span>
+     </div>
+     </section>
+</body>
