@@ -151,14 +151,46 @@ a.nav-item:hover {
   animation-duration: 1.5s; /*-- sets the duration --*/
 }
 @-webkit-keyframes fade { /*-- webkit prefix --*/
-  from {opacity: .4}
-  to {opacity: 1}
+  from {opacity: .4;}
+  to {opacity: 1;}
 }
 @keyframes fade { /*-- sets "fade" animation properties --*/
-  from {opacity: .4} /*-- sets start of animation --*/
-  to {opacity: 1} /*-- sets end of animation --*/
+  from {opacity: .4;} /*-- sets start of animation --*/
+  to {opacity: 1;} /*-- sets end of animation --*/
 }
 /* On smaller screens, hides slideshow */
 @media only screen and (max-width: 767px) {
   .slideshow {display: none;}
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+}
+@media only screen and (max-width: 1080px) {
+  .grid-container {grid-template-columns: repeat(2, 1fr);}
+}
+@media only screen and (max-width: 550px) {
+  .grid-container {grid-template-columns: 1fr;}
+}
+.card-wrap {
+  border: 2px solid white;
+  color: white;
+  background: #333;
+}
+.thumb {
+  padding-bottom: 56%;
+  background-size: cover;
+}
+.thumb.one{background-image:url('../img/5.jpg');}
+.thumb.two{background-image:url('../img/6.jpg');}
+.thumb.three{background-image:url('../img/7.jpg');}
+.thumb.four{background-image:url('../img/8.jpg');}
+.thumb.five{background-image:url('../img/9.jpg');}
+.thumb.six{background-image:url('../img/10.jpg');}
+.thumb.seven{background-image:url('../img/11.jpg');}
+.thumb.eight{background-image:url('../img/12.jpg');}
+.thumb.nine{background-image:url('../img/13.jpg');}
+.thumb.ten{background-image:url('../img/14.jpg');}
+.thumb.eleven{background-image:url('../img/15.jpg');}
+.thumb.twelve{background-image:url('../img/16.jpg');}
