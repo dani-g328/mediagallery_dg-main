@@ -1,12 +1,4 @@
-/*--
-funcion navToggle() {
-  var x = document.getElementById("main-nav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}--*/
+
 // Slideshow Functions
 var slideIndex = 1; // creates a new variable, names it slideIndex, and sets it = to 1
 
