@@ -132,7 +132,7 @@ a.nav-item:hover {
   height: auto; /*-- sets height of pics --*/
   width: 25%; /*-- sets width of pics --*/
   margin: 0 2px; /*-- adds margin between pics --*/
-  background-color: #bbb; /*-- sets background color to light gray --*/
+  background-color: #5f5e6d; /*-- sets background color to light gray --*/
   display: inline-block; /*-- displays in a horizontal line --*/
   transition: all 250ms ease-in-out; /*-- allows opacity change to take time --*/
   opacity: .5;
@@ -176,7 +176,7 @@ a.nav-item:hover {
 .card-wrap {
   border: 2px solid white;
   color: white;
-  background: #333;
+  background: #9493a2 ;
 }
 .thumb {
   padding-bottom: 56%;
