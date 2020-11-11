@@ -2,8 +2,8 @@
   --prime: #222;
   --text: #333;
   --rev-text: #EEE;
-  --accent: #2E9CCA;
-  --bg: #EEE;
+  --accent: #6f6f7c;
+  --bg: #66666c;
 }
 body { /*-- Sets body defaults --*/
   padding: .25rem;
@@ -74,7 +74,7 @@ a.nav-item:hover {
 /*-- Styles for slideshow --*/
 .slideshow {
   background-color: var(--bg);
-  padding: 1em;
+  padding: 2em;
 }
 .slideshow-wrapper {
   position: relative; /*-- this allows children to be position absolutely --*/
