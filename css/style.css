@@ -1,8 +1,8 @@
 :root {/*-- Sets color variables --*/
-  --prime: #222;
-  --text: #333;
-  --rev-text: #EEE;
-  --accent: #6f6f7c;
+  --prime: #6b6b85;
+  --text: #ababc5;
+  --rev-text: #545474;
+  --accent: #4d4d63;
   --bg: #66666c;
 }
 body { /*-- Sets body defaults --*/
@@ -132,7 +132,7 @@ a.nav-item:hover {
   height: auto; /*-- sets height of pics --*/
   width: 25%; /*-- sets width of pics --*/
   margin: 0 2px; /*-- adds margin between pics --*/
-  background-color: #5f5e6d; /*-- sets background color to light gray --*/
+  background-color: #6a6a82; /*-- sets background color to light gray --*/
   display: inline-block; /*-- displays in a horizontal line --*/
   transition: all 250ms ease-in-out; /*-- allows opacity change to take time --*/
   opacity: .5;
@@ -174,9 +174,9 @@ a.nav-item:hover {
   .grid-container {grid-template-columns: 1fr;}
 }
 .card-wrap {
-  border: 2px solid white;
+  border: 4px solid white;
   color: white;
-  background: #9493a2 ;
+  background: #8e8eac;
 }
 .thumb {
   padding-bottom: 56%;
