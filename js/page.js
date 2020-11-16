@@ -1,4 +1,13 @@
-
+//* Page Scripts
+// Mobile Navigation navToggle
+function navtoggle () {
+  var x = document.getElementbyId("main-nav");
+    if (x.classname === "topnav") {
+      x.classname += "responsive";
+    } else {
+      x.classname = "topnav";
+    } //closes if-else
+} //closes function
 // Slideshow Functions
 var slideIndex = 1; // creates a new variable, names it slideIndex, and sets it = to 1
 
@@ -27,7 +36,7 @@ function showSlides(n) { // creates the showSlides function using n as the param
   slides[slideIndex-1].style.display = "block"; // display slides
   indicator[slideIndex-1].className += " active"; // make indicator active
 }
-/*--
+
 $(".button").on("click", function() {
   var modal =$(this).data("modal");
   $(modal).show();
@@ -37,4 +46,4 @@ $(".modal").on("click", function(e) {
   if(className === "Modal" || className === "close"){
     $(this).closest(".modal").hide();
   }
-});--*/
+});

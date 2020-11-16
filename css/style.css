@@ -6,12 +6,18 @@
   --bg: #66666c;
 }
 body { /*-- Sets body defaults --*/
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
   padding: .25rem;
   font-size: 18px;
   color: var(--text);
   background-color: var(--prime);
   width: 98%;
   margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
 }
 i.fas { /*-- adds a little padding left and right on fontawesome icons --*/
   padding: 0 .33em;
@@ -166,6 +172,7 @@ a.nav-item:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2em;
+  padding-top: 2em;
 }
 @media only screen and (max-width: 1080px) {
   .grid-container {grid-template-columns: repeat(2, 1fr);}
@@ -177,6 +184,7 @@ a.nav-item:hover {
   border: 4px solid white;
   color: white;
   background: #8e8eac;
+  padding: .5em;
 }
 .thumb {
   padding-bottom: 56%;
@@ -194,3 +202,22 @@ a.nav-item:hover {
 .thumb.ten{background-image:url('../img/14.jpg');}
 .thumb.eleven{background-image:url('../img/15.jpg');}
 .thumb.twelve{background-image:url('../img/16.jpg');}
+
+.card-text {
+}
+.btn {
+  width: 6em;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .25em .5em;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: all .3s ease-in;
+}
+.btn:hover {
+  background-color: #888;
+  cursor: pointer;
+}
